@@ -2,7 +2,10 @@
   "scripts": {
     "dev:server": "yarn workspace server start",
     "dev:client": "yarn workspace client start",
-    "dev": "concurrently \"yarn run dev:server\" \"yarn run dev:client\""
+    "dev": "concurrently \"yarn run dev:server\" \"yarn run dev:client\"",
+    "fmt:server": "yarn workspace server fmt",
+    "fmt:client": "yarn workspace clien fmt",
+    "fmt": "concurrently \"yarn run fmt:server\" \"yarn run fmt:client\""
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
