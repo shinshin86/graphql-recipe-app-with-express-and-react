@@ -1,4 +1,4 @@
-# graphql-recipe-server-with-express
+# server
 
 I implemented it by referring to this document.
 
@@ -7,11 +7,9 @@ I implemented it by referring to this document.
 I'm building a combination of these libraries and environments.
 
 - Node.js
-
+- express
 - Sequelize(ORM)
-
 - MySQL(RDS)
-
 - Apollo Server( `apollo-server-express` )
 
 ## Usage
