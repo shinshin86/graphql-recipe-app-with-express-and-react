@@ -4,7 +4,7 @@
     "dev:client": "yarn workspace client start",
     "dev": "concurrently \"yarn run dev:server\" \"yarn run dev:client\"",
     "fmt:server": "yarn workspace server fmt",
-    "fmt:client": "yarn workspace clien fmt",
+    "fmt:client": "yarn workspace client fmt",
     "fmt": "concurrently \"yarn run fmt:server\" \"yarn run fmt:client\""
   },
   "devDependencies": {
