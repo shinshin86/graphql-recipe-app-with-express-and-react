@@ -19,7 +19,7 @@ export default () => {
           }
         }
       `,
-    []
+    [recipeId]
   );
 
   const { loading, error, data } = useQuery(reciepQuery);

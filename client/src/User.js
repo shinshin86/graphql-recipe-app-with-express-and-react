@@ -15,7 +15,7 @@ export default () => {
             }
           }
         `,
-    []
+    [userId]
   );
 
   const { loading, error, data } = useQuery(userQuery);
