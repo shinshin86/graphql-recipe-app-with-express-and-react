@@ -12,12 +12,32 @@ I'm building a combination of these libraries and environments.
 - MySQL(RDS)
 - Apollo Server( `apollo-server-express` )
 
+## Setup
+
+If Docker is available, use Docker to build a MySQL environment.
+
+Build the DB by looking at the contents of the env file.  
+The contents of the env file contains connection information for testing purposes, so please modify it according to your environment when actually using it.
+
+```sh
+docker-compose up -d
+```
+
+Execute this command to create DB tables.
+
+```sh
+yarn db:migrate:dev
+```
+
+All that remains is to launch the application.
+See `Usage` below.
+
 ## Usage
 
-Start server
+Start app
 
 ```bash
-yarn start
+yarn dev
 ```
 
 Code format
